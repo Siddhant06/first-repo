@@ -1,0 +1,51 @@
+Data structure (tree)
+Event delegation (bubbling capturing)
+shallow copy/ deep copy
+rest/spread operator
+generators/decorators
+
+hoisting 
+*event loop (task queue)
+scope, closure
+call bind apply (with eg.)
+promise (handle ascyn operation, easy dealing with multiple ascyn oper., before we are using callback causing where callback can create callback hell causing unmanagable call.)
+async/await
+selfinvoking function
+annonymous function
+HOC/HOF when to use?
+reduce?
+
+Package.json diff between(dependencies / devDependencies)
+difference between foreach and map and for loop
+localStorage/sessionStorage
+
+
+React
+memo, usememo, usecallback (preformance improve),
+pure component ( jo rerender nhi hote).
+error boundary.
+redux flow. (mapstatetoprops => data provide (store=>component), mapdispatchtoprops(provide action creator with props to component, connect redux action to component props))
+contextapi/redux
+AJAX/REST api
+
+CSS
+boxmodel: content=>pading=>border=>marginx	
+display : none(height,width: null) / visibility: hidden ().
+pseudo classes
+disadvantage of float
+
+Question
+for (var i = 1; i <= 5; i++) {
+    setTimeout(function() { console.log(i); }, 1000*i);
+}
+Answer || for var=>6,6,6,6,6  || for let => 1,2,3,4,5 || for const will throw an error
+
+
+var s;
+function x (){
+var b;
+ function y(c){
+  console.log(b,c,s);
+ }
+}
+
